@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-left: calc(50% - 400px);
+  padding-right: calc(50% - 400px);
+  border: none;
+  outline: none;
+  font-size: 36px;
+  min-height: 50px;
+  resize: none;
+}

@@ -1,0 +1,17 @@
+.modal {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: auto;
+  width: 400px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+}
